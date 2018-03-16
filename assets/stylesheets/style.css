@@ -1,0 +1,99 @@
+body{
+    background: #2b2b28;
+    font-family:  'Luckiest Guy', 'Gloria Hallelujah', 'Rammetto One', 'Roboto',  cursive;
+    line-height: 1.6em;
+    letter-spacing: .2em;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    border-top: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url("/assets/images/fireNdog2.png");
+    background-size:  100% 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+}
+
+.content {
+    color: #d7dfe9;
+    font-family:  'Gloria Hallelujah', 'Roboto',  cursive;
+    font-size: 1em;
+    text-shadow: 2px 2px 4px #ca210b;
+    margin: 0;
+    padding: 80px 20px 80px 20px;
+    text-align: right;
+}
+
+.gallery {
+    background-image: url(/assets/images/lineUp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+}
+
+.footer {
+    color: #ffffff;
+    display: flex;
+    font-size: 1em;
+    font-family:  'Roboto', 'Gloria Hallelujah', cursive;
+    font-weight: 300;
+    flex-flow: row wrap;
+    flex-grow: 1;   
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-end;
+}
+
+.social-links, ul {
+    order: 1;
+    flex-basis: auto;
+    list-style: none;
+    padding: 0 30px 0 30px;
+}
+.contact, ul {
+    order: 3;
+    flex-basis: auto;
+    list-style: none;
+    padding: 0 30px 0 30px;
+}
+
+.cert {
+    order: 2;
+    flex-basis: auto;
+    padding: 0 80px 0 80px;
+}
+
+.author, span{
+    color: #ffffff;
+    font-size: 1em;
+    font-size: 1em;
+    font-family:  'Roboto', arial, sans-serif;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+.author a {
+    color: #d7dfe9;
+    text-decoration: none;
+
+}
+
+.author a:hover {
+    color: #9397a7;
+    font-size: .9em;
+    text-transform: uppercase;
+}

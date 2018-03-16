@@ -11,7 +11,7 @@ body{
 }
 
 .header {
-    background-image: url("assets/images/fireNdog2.png");
+    background-image: url("/assets/images/fireNdog2.png");
     background-size:  100% 400px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body{
 }
 
 .gallery {
-    background-image: url("assets/images/lineUp.jpg");
+    background-image: url("/assets/images/lineUp.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;

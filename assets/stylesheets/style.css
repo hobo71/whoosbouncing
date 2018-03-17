@@ -10,19 +10,7 @@ body{
     box-sizing: border-box;
 }
 
-.header {
-    background-image: url(https://s3.amazonaws.com/jh3-blogbucket/fireNdog2.png?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luEHMaCXVzLWVhc3QtMSKAArB5gLjhtgkGo9oyjJsib6iatPEc39LJCMKoDUS4lRQIjR1XqQfdRKUgfdWRG3f017W4KaoKTimmQyg2BZHia56jLc5aCvsdIzxsvt8r7WtT3PNHNThe5ReTBOAxadbusc%2BRFrIgNwH5vUkuwt5%2B%2FAAA4BGoDxMbr8sMsMOxlkWN7cr0Mh3e6Q0VJHkkhyYsv2%2F8flrnMXRTiG7WRUsY%2B1%2FaVMT1fKQ3Tz3olxF%2Bm%2B2bxjrKa1kukufB3lbgPpKrfR4MiNPyEe9f4gkT20xxVuJB2Vo5YfYJm5m%2ByvHW18M8Q%2FldhzkN8H3nSeeLzjqYwy0uTCaJTRKxY9Ub8a9rPiEq8gMIeBAAGgwxOTc5ODAyOTUzNzQiDCKv7LEMJ7JJ3ibH5yrPA7tOFNW%2FV%2B%2FQgbmAUF8BUwwuWDw5yd93RorDDTzO3%2BioTP%2FpvUdVXchLtEGHtQ8LcYeiK6mlvkNo742FmBEE%2BifDG3TZ29zyHRw%2B22q22JdQfAkNnvIDxWmlYcHMCKLFHQCU%2Fl47SETvSpudBANt0mqStleL5Ufm3gKKoG1KjB4fL%2Bz4EaiTDLDoHuhhL%2FFsx2heN%2BiqPyV9p%2F1pz36QMp45ylTK7xhN4HspjMu%2FUJBbuu61bENLahLl0hdH3Aj1XTHeCNcLQyUzZL85LlO6MuTZ3DoEBjW2gwoVqTmIlxmJiVoVc8AR7JJnrwbO9O9cu3MkM938jeiVrMTFSqYBRGcb2F6Per3mFUoLK1W2bu4NUjE48fS6s5NN6K41Yy%2FU3URsqxsMPKNkvKXO%2FKZcl%2FQxCHldCa%2Ffp%2BtkbHOB3oV23GbQggl%2F1T4JWsnUin8hTrOLTjapOcISCpA6TEEZNPv0qGzFEnTJDHIJaQIc0QABBcq2IIfWZuJDjNa2t4dNxGnUs2%2Fvc8RLy2JoP6Fh6lL2OfIgUdfhVa9tBrHBZZHAu0soQG%2BM%2Bd7Hs9tbgEB8Rk9mCzvjkVjIMTbe1%2FrbmLbZWKFzGAF7Au687OqJqo8wy7uv1QU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180316T151021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAJGJU2XYVTSDWKAJQ%2F20180316%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=087c56bd6e0dd9f965cb1a952320cdd339f595c5911bc7d26c7cda8e1b128716);
-    background-size:  100% 400px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    color: #ffffff;
-    margin-top: 0;
-    border-top: 0;
-    padding-top: 0;
-    height: 400px;
-    width: 100%;
-    z-index: -1;
-}
+
 
 .content {
     color: #d7dfe9;
@@ -96,4 +84,18 @@ body{
     color: #9397a7;
     font-size: .9em;
     text-transform: uppercase;
+}
+
+.header {
+    background-image: url(assets/images/fireNdog2.png);
+    background-size: 100% 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
 }
